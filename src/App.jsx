@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import { Dashboard } from "./pages/Dashboard";
+import LoanAnalysis from './pages/LoanAnalysis';
 import { Footer } from "./components/layout/Footer";
 
 function App() {
@@ -38,6 +39,10 @@ function App() {
             </div>
           }
         />
+
+<Route path="/LoanAnalysis" element={<div id="root">
+              <LoanAnalysis />
+            </div>} />
 
         {/* Routes with Navbar and Footer */}
         <Route

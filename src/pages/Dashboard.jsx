@@ -1,9 +1,13 @@
 import { useState } from "react";
 import { UserButton } from "@clerk/clerk-react";
 import "./Dashboard.css";
+import { useNavigate } from "react-router-dom";
+import { Footer } from "../components/layout/Footer";
 
 export const Dashboard = () => {
   const [currentStep, setCurrentStep] = useState(1);
+  const navigate = useNavigate(); // Define navigate here
+
   const steps = [
     { id: 1, title: "Personal Information" },
     { id: 2, title: "Business Details" },
@@ -11,11 +15,16 @@ export const Dashboard = () => {
     { id: 4, title: "Loan Application" },
     { id: 5, title: "Review & Submit" },
   ];
+
   const handleFileUpload = (event) => {
     const files = event.target.files;
     if (files.length > 0) {
       console.log("Uploaded files:", files);
     }
+  };
+
+  const handleSubmit = () => {
+    navigate("/LoanAnalysis"); // Use the navigate function to redirect
   };
 
   const renderStepContent = () => {
@@ -49,8 +58,10 @@ export const Dashboard = () => {
               placeholder="Business Name"
               className="input full-width"
             />
-            <select className="input full-width">
-              <option disabled selected>Select Business Type</option>
+            <select className="input full-width" defaultValue="">
+              <option value="" disabled>
+                Select Business Type
+              </option>
               <option value="street-vendor">Street Vendor</option>
               <option value="food-truck">Food Truck</option>
               <option value="small-retail">Small Retail Shop</option>
@@ -59,7 +70,7 @@ export const Dashboard = () => {
               <option value="transport">Transport Business</option>
             </select>
             <input
-              type="number"
+              type="text"
               placeholder="Years in Business"
               className="input full-width"
             />
@@ -84,8 +95,8 @@ export const Dashboard = () => {
             </div>
             <h2>Required Documents:</h2>
             <ul className="doc-list">
-              <li>Business Registration (If avaliable)</li>
-              <li>Recent Bank Statements (If avaliable)</li>
+              <li>Business Registration (If available)</li>
+              <li>Recent Bank Statements (If available)</li>
               <li>Proof of Business Location</li>
               <li>Any Govt. ID Proof</li>
             </ul>
@@ -95,15 +106,15 @@ export const Dashboard = () => {
         return (
           <div>
             <h3>Loan Application</h3>
-            <select className="input full-width">
-              <option disabled selected>Select Loan Type</option>
+            <select className="input full-width" defaultValue="">
+              <option value="" disabled>
+                Select Loan Type
+              </option>
               <option value="nano-loan">Nano Business Loan</option>
               <option value="working-capital">Working Capital Loan</option>
               <option value="equipment-financing">Equipment Financing</option>
               <option value="inventory-loan">Inventory Loan</option>
-              <option value="growth-loan">
-                Growth and Expansion Loan
-              </option>{" "}
+              <option value="growth-loan">Growth and Expansion Loan</option>
             </select>
             <input
               type="number"
@@ -121,7 +132,9 @@ export const Dashboard = () => {
           <div>
             <h3>Review & Submit</h3>
             <p>Review your application before submitting.</p>
-            <button className="btn">Submit Application</button>
+            <button className="btn" onClick={handleSubmit}>
+              Submit Application
+            </button>
           </div>
         );
       default:
@@ -170,6 +183,7 @@ export const Dashboard = () => {
         {/* Navigation Buttons */}
         <div className="step-buttons">
           <button
+            className="prev-btn"
             disabled={currentStep === 1}
             onClick={() => setCurrentStep((prev) => Math.max(prev - 1, 1))}
           >
@@ -178,7 +192,7 @@ export const Dashboard = () => {
           <button
             onClick={() =>
               currentStep === steps.length
-                ? alert("Submit Application")
+                ? handleSubmit()
                 : setCurrentStep((prev) => Math.min(prev + 1, steps.length))
             }
           >
@@ -186,6 +200,8 @@ export const Dashboard = () => {
           </button>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 };

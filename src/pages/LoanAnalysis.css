@@ -1,0 +1,28 @@
+.main-analysis{
+    text-align: center;
+    margin-top: 20px;
+}
+.anlysis-heading{
+    font-size: 4rem;
+}
+.main-analysis h1{
+    font-size: 2rem;
+}
+.main-analysis p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .main-analysis {
+        width: 98vw;
+        margin: 40px 0px;
+    }
+    .main-analysis h1{
+        font-size: 1.4rem;
+    }
+    .main-analysis p{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+}
