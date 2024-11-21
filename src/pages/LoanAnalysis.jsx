@@ -1,5 +1,6 @@
 import { UserButton } from "@clerk/clerk-react";
 import "./LoanAnalysis.css"
+import { Footer } from "../components/layout/Footer";
 const LoanAnalysis = () => {
   return (
     <section className="analysis-section">
@@ -22,6 +23,8 @@ const LoanAnalysis = () => {
           </div>
         </section>
       </div>
+
+      <Footer/>
     </section>
   );
 };
