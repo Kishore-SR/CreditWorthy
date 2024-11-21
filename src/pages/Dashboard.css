@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .dashboard {
     display: flex;
     flex-direction: column;
@@ -19,17 +25,21 @@
     font-weight: bold;
     color: #333;
   }
-  
+ 
   .dashboard-logo i {
     color: #ffc107;
   }
   
   .dashboard-user-icon {
     font-size: 24px;
-    color: #555;
     cursor: pointer;
   }
-  
+  .d-text h1 span {
+    background: linear-gradient(to right, #ff8971, #fa2a00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
   .dashboard-content {
     flex: 1;
     display: flex;
@@ -47,5 +57,102 @@
   .dashboard-content p {
     font-size: 16px;
     color: #666;
+  }
+   /* Responsive Design */
+   @media (max-width: 768px) {
+    .dashboard-content {
+        width: 96vw;
+        margin: auto;
+    }
+    .dashboard-content h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+      
+      .dashboard-content p {
+        font-size: 14px;
+        color: #666;
+      }
+   }
+  .steps-nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .step {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .step.active span {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .step span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 auto;
+  }
+  
+  .step-content {
+    margin: 20px 0;
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .upload-area {
+    border: 2px dashed #ddd;
+    padding: 20px;
+    text-align: center;
+    z-index: -1;
+  }
+  
+  .icon {
+    font-size: 24px;
+  }
+  
+  .doc-list {
+    margin-top: 10px;
+    padding-left: 20px;
+    text-align: left;
+  }
+  .doc-list li{
+    list-style: disc;
+  }
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .step-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .step-buttons button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
   }
   
