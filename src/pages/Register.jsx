@@ -4,7 +4,7 @@ import styles from "./Login.module.css";
 function Login() {
   return (
     <div className={styles["c1-rootBox"]}>
-      <SignUp/>
+      <SignUp signInUrl="/Login" forceRedirectUrl={"/dashboard"}/>
     </div>
   );
 }

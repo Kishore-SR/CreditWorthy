@@ -6,6 +6,7 @@ import HowItWorks from "./pages/HowItWorks";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import { Dashboard } from "./pages/Dashboard";
 import { Footer } from "./components/layout/Footer";
 
 function App() {
@@ -26,6 +27,14 @@ function App() {
           element={
             <div id="root">
               <Register />
+            </div>
+          }
+        />
+        <Route
+          path="/dashboard"
+          element={
+            <div id="root">
+              <Dashboard />
             </div>
           }
         />
