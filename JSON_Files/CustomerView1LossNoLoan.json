@@ -1,0 +1,73 @@
+{
+  "personal_info": {
+    "name": "Mr.",
+    "customer_id": "Mr. Harshavardhan M",
+    "mobile": "73XXXXXX26",
+    "email": "NumberpaXXXXXXXXXXX@gmail.comS",
+    "pan": "HPXXXXX92Q",
+    "kyc_status": "Compliant"
+  },
+  "account_info": {
+    "account_number": "XXXXXXX5029",
+    "branch_name": "ST.THOMASROADLINGARAJAPURAM",
+    "micr_code": "560002431",
+    "available_balance": "1823.40",
+    "mode_of_operation": "Branch"
+  },
+  "transactions": [
+    {
+      "date": "23-12-22INB",
+      "description": "IMPS235713000234/8828574650/XX9421/bankAccoun-",
+      "credit": 1.0,
+      "debit": 0.0,
+      "balance": 1915.4
+    },
+    {
+      "date": "23-12-22",
+      "description": "UPI/DR/235720047515/SLV iyen/PYTM/paytmqr281/UPI -",
+      "credit": 0.0,
+      "debit": 30.0,
+      "balance": 1885.4
+    },
+    {
+      "date": "25-12-22",
+      "description": "INTEREST CREDIT -",
+      "credit": 17.0,
+      "debit": 0.0,
+      "balance": 1902.4
+    },
+    {
+      "date": "26-12-22",
+      "description": "UPI/DR/236044568021/Sri Laks/PYTM/paytmqr281/graph -",
+      "credit": 0.0,
+      "debit": 30.0,
+      "balance": 1872.4
+    },
+    {
+      "date": "26-12-22",
+      "description": "UPI/DR/236062519967/Sri Laks/PYTM/paytmqr281/UPI -",
+      "credit": 0.0,
+      "debit": 10.0,
+      "balance": 1862.4
+    },
+    {
+      "date": "26-12-22",
+      "description": "UPI/DR/236097318995/Sri Laks/PYTM/paytmqr281/kanna -",
+      "credit": 0.0,
+      "debit": 30.0,
+      "balance": 1832.4
+    },
+    {
+      "date": "26-12-22",
+      "description": "UPI/DR/236056275368/L N CHET/PYTM/paytmqr281/UPI -",
+      "credit": 0.0,
+      "debit": 10.0,
+      "balance": 1822.4
+    }
+  ],
+  "summary": {
+    "opening_balance": "1914.40",
+    "closing_balance": "1823.40",
+    "statement_period": "31-12-22"
+  }
+}

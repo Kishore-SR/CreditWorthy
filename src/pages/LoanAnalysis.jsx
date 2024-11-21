@@ -4,7 +4,6 @@ import { Footer } from "../components/layout/Footer";
 const LoanAnalysis = () => {
   return (
     <section className="analysis-section">
-      <div className="dashboard">
         {/* Navbar */}
         <nav className="adashboard-navbar">
           <div className="dashboard-logo">
@@ -22,8 +21,16 @@ const LoanAnalysis = () => {
             <p>Your loan application has been submitted successfully. View your personalized loan insights and recommendations instantly!</p>
           </div>
         </section>
-      </div>
 
+      {/* Embed Streamlit App */}
+      <iframe
+          src="http://localhost:8501"
+          title="Nano Entrepreneur App"
+          width="100%"
+          height="800px"
+          style={{ border: "none", marginTop: "20px" }}
+        />
+        
       <Footer/>
     </section>
   );

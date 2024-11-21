@@ -1,0 +1,108 @@
+{
+  "personal_info": {
+    "name": "Mr. Harshavardhan M",
+    "customer_id": "Mr. Harshavardhan M",
+    "mobile": "73XXXXXX26",
+    "email": "NumberpaXXXXXXXXXXX@gmail.comS",
+    "pan": "HPXXXXX92Q",
+    "kyc_status": "Compliant"
+  },
+  "account_info": {
+    "account_number": "XXXXXXX5029",
+    "branch_name": "ST.THOMASROADLINGARAJAPURAM",
+    "micr_code": "560002431",
+    "available_balance": "500000.00",
+    "mode_of_operation": "Branch"
+  },
+  "transactions": [
+    {
+      "date": "01-01-23",
+      "description": "SALARY CREDIT",
+      "credit": 30000.00,
+      "debit": 0.00,
+      "balance": 30000.00
+    },
+    {
+      "date": "02-01-23",
+      "description": "BUSINESS INVESTMENT",
+      "credit": 15000.00,
+      "debit": 0.00,
+      "balance": 45000.00
+    },
+    {
+      "date": "05-01-23",
+      "description": "UTILITY PAYMENT",
+      "credit": 0.00,
+      "debit": 5000.00,
+      "balance": 40000.00
+    },
+    {
+      "date": "07-01-23",
+      "description": "BONUS CREDIT",
+      "credit": 25000.00,
+      "debit": 0.00,
+      "balance": 65000.00
+    },
+    {
+      "date": "10-01-23",
+      "description": "PAYMENT TO SUPPLIER",
+      "credit": 0.00,
+      "debit": 10000.00,
+      "balance": 55000.00
+    },
+    {
+      "date": "12-01-23",
+      "description": "CREDIT FROM CLIENT",
+      "credit": 20000.00,
+      "debit": 0.00,
+      "balance": 75000.00
+    },
+    {
+      "date": "15-01-23",
+      "description": "RENT PAYMENT",
+      "credit": 0.00,
+      "debit": 8000.00,
+      "balance": 67000.00
+    },
+    {
+      "date": "18-01-23",
+      "description": "BUSINESS GROWTH INVESTMENT",
+      "credit": 20000.00,
+      "debit": 0.00,
+      "balance": 87000.00
+    },
+    {
+      "date": "20-01-23",
+      "description": "TRANSFER FROM BUSINESS ACCOUNT",
+      "credit": 50000.00,
+      "debit": 0.00,
+      "balance": 137000.00
+    },
+    {
+      "date": "25-01-23",
+      "description": "UPI/DR/RENT PAYMENT",
+      "credit": 0.00,
+      "debit": 10000.00,
+      "balance": 127000.00
+    },
+    {
+      "date": "28-01-23",
+      "description": "INTEREST CREDIT",
+      "credit": 5000.00,
+      "debit": 0.00,
+      "balance": 132000.00
+    },
+    {
+      "date": "31-01-23",
+      "description": "BONUS CREDIT",
+      "credit": 20000.00,
+      "debit": 0.00,
+      "balance": 152000.00
+    }
+  ],
+  "summary": {
+    "opening_balance": "30000.00",
+    "closing_balance": "152000.00",
+    "statement_period": "31-01-23"
+  }
+}

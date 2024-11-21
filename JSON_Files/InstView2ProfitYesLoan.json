@@ -1,0 +1,103 @@
+{
+  "personal_info": {
+    "name": "Harshavardhan M",
+    "customer_id": "NANO_ENT_001",
+    "mobile": "7300000026",
+    "email": "harshavardhan.m@example.com",
+    "pan": "HPXXXXX92Q",
+    "kyc_status": "Compliant"
+  },
+  "account_info": {
+    "account_number": "5029",
+    "branch_name": "ST. THOMAS ROAD LINGARAJAPURAM",
+    "micr_code": "560002431",
+    "available_balance": 100000.00,
+    "mode_of_operation": "Branch"
+  },
+  "transactions": [
+    {
+      "date": "04-05-23",
+      "description": "UPI/CR/312457325379/Salary Credit/Employer -",
+      "credit": 50000.0,
+      "debit": 0.0,
+      "balance": 51262.34
+    },
+    {
+      "date": "06-05-23",
+      "description": "UPI/CR/312631480649/Investment Returns/XYZ -",
+      "credit": 30000.0,
+      "debit": 0.0,
+      "balance": 81262.34
+    },
+    {
+      "date": "10-05-23",
+      "description": "UPI/CR/Loan Received from Friend",
+      "credit": 10000.0,
+      "debit": 0.0,
+      "balance": 91262.34
+    },
+    {
+      "date": "15-05-23",
+      "description": "UPI/DR/Loan Repayment to Friend - Part 1",
+      "credit": 0.0,
+      "debit": 2000.0,
+      "balance": 89262.34
+    },
+    {
+      "date": "20-05-23",
+      "description": "UPI/DR/Loan Repayment to Friend - Part 2",
+      "credit": 0.0,
+      "debit": 2000.0,
+      "balance": 87262.34
+    },
+    {
+      "date": "25-05-23",
+      "description": "UPI/DR/Loan Repayment to Friend - Part 3",
+      "credit": 0.0,
+      "debit": 1000.0,
+      "balance": 86262.34
+    },
+    {
+      "date": "30-05-23",
+      "description": "UPI/DR/Loan Repayment to Friend - Part 4",
+      "credit": 0.0,
+      "debit": 1000.0,
+      "balance": 85262.34
+    },
+    {
+      "date": "05-06-23",
+      "description": "UPI/DR/Loan Repayment to Friend - Part 5",
+      "credit": 0.0,
+      "debit": 4500.0,
+      "balance": 83762.34
+    },
+    {
+      "date": "15-05-23",
+      "description": "UPI/DR/313541716675/Grocery Shopping/Store -",
+      "credit": 0.0,
+      "debit": 100.0,
+      "balance": 81162.34
+    },
+    {
+      "date": "15-05-23",
+      "description": "UPI/CR/313542158090/Rent Refund/John -",
+      "credit": 20000.0,
+      "debit": 0.0,
+      "balance": 101162.34
+    },
+    {
+      "date": "23-05-23",
+      "description": "UPI/DR/314316595969/Coffee Shop/Beverages -",
+      "credit": 0.0,
+      "debit": 50.0,
+      "balance": 101112.34
+    },
+    {
+      "date": "23-05-23",
+      "description": "UPI/CR/314317057956/Bonus Credit/Company -",
+      "credit": 5000.0,
+      "debit": 0.0,
+      "balance": 106112.34
+    }
+  ]
+}

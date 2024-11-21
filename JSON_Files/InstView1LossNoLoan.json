@@ -1,0 +1,39 @@
+{
+  "personal_info": {
+    "name": "John Doe",
+    "customer_id": "123456",
+    "mobile": "9876543210",
+    "kyc_status": "Completed"
+  },
+  "account_info": {
+    "account_number": "9876543210",
+    "available_balance": 1000
+  },
+  "transactions": [
+    {
+      "date": "01-01-24",
+      "description": "Coffee Shop",
+      "credit": 0,
+      "debit": 150,
+      "balance": 1000
+    },
+    {
+      "date": "05-01-24",
+      "description": "Food Delivery",
+      "credit": 0,
+      "debit": 200,
+      "balance": 800
+    },
+    {
+      "date": "10-01-24",
+      "description": "Shopping",
+      "credit": 0,
+      "debit": 500,
+      "balance": 300
+    }
+  ],
+  "summary": {
+    "opening_balance": 1500,
+    "closing_balance": 300
+  }
+}
