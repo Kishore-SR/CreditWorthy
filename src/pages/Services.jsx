@@ -1,8 +1,11 @@
 import "./Services.css"
 import serviceImg from "../assets/services.webp"
-import { Footer } from "../components/layout/Footer";
+import { useEffect } from "react";
 
 function Services() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="services-page">
       <div className="services-header">

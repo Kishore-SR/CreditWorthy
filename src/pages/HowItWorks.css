@@ -44,7 +44,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  .icon {
+  .hicon {
     font-size: 2.5rem;
     color: #2d87f0;
   }
@@ -61,10 +61,10 @@
     line-height: 1.6;
   }
   
-  .line {
+  .hline {
     height: 2px;
     background-color: #ddd;
-    width: 100%;
+    width: 80vw;
   }
   
   .cta-section {
@@ -125,7 +125,7 @@
       align-items: flex-start;
     }
   
-    .icon {
+    .hh {
       font-size: 2rem;
     }
   

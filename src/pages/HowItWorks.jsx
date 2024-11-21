@@ -1,8 +1,12 @@
 import React from 'react';
 import './HowItWorks.css';
 import { Link } from "react-router-dom"; 
+import { useEffect } from "react";
 
 function HowItWorks() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="how-it-works-container">
       <section className="how-it-works-header">
@@ -13,7 +17,7 @@ function HowItWorks() {
 
       <section className="wsteps">
         <div className="wstep">
-          <div className="icon">
+          <div className="hicon">
             <i className="ri-user-fill"></i>
           </div>
           <div className="step-content">
@@ -22,10 +26,10 @@ function HowItWorks() {
           </div>
         </div>
 
-        <div className="line"></div>
+        <div className="hline"></div>
 
         <div className="wstep">
-          <div className="icon">
+          <div className="hicon">
             <i className="ri-calculator-fill"></i>
           </div>
           <div className="wstep-content">
@@ -34,10 +38,10 @@ function HowItWorks() {
           </div>
         </div>
 
-        <div className="line"></div>
+        <div className="hline"></div>
 
         <div className="wstep">
-          <div className="icon">
+          <div className="hicon">
             <i className="ri-contacts-book-fill"></i>
           </div>
           <div className="step-content">
@@ -46,10 +50,10 @@ function HowItWorks() {
           </div>
         </div>
 
-        <div className="line"></div>
+        <div className="hline"></div>
 
         <div className="wstep">
-          <div className="icon">
+          <div className="hicon">
             <i className="ri-hand-coin-fill"></i>
           </div>
           <div className="step-content">
@@ -58,10 +62,10 @@ function HowItWorks() {
           </div>
         </div>
 
-        <div className="line"></div>
+        <div className="hline"></div>
 
         <div className="wstep">
-          <div className="icon">
+          <div className="hicon">
             <i className="ri-refresh-fill"></i>
           </div>
           <div className="step-content">
