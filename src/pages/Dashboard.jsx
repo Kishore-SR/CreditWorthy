@@ -201,7 +201,7 @@ export const Dashboard = () => {
         </div>
       </section>
 
-      <Footer />
+      <Footer/>
     </div>
   );
 };

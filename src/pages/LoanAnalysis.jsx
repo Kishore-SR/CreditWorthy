@@ -5,7 +5,7 @@ const LoanAnalysis = () => {
     <section className="analysis-section">
       <div className="dashboard">
         {/* Navbar */}
-        <nav className="dashboard-navbar">
+        <nav className="adashboard-navbar">
           <div className="dashboard-logo">
             Credit<i className="ri-money-rupee-circle-fill"></i>Worthy
           </div>

@@ -12,7 +12,19 @@
     font-size: 1.2rem;
     margin-top: 10px;
 }
+.adashboard-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    padding: 2px 16px;
 
+  }
+  .adashboard-navbar div{
+    font-size: 1.8rem;
+  }
 @media (max-width: 768px) {
     .main-analysis {
         width: 98vw;
@@ -25,4 +37,7 @@
         font-size: 1rem;
         margin-top: 10px;
     }
+    .adashboard-navbar div{
+        font-size: 1.5rem;
+      }
 }
