@@ -23,6 +23,14 @@ This project was created for the **AI & Data Science Codeathon 2024**, a 24-hour
 [![Numpy](https://img.shields.io/badge/numpy-%23013243.svg?&style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 
 ### Project Screenshots
+![Image](https://github.com/user-attachments/assets/f62d5f5d-2750-4b27-96fe-9a9704b02073)
+![Image](https://github.com/user-attachments/assets/d3b7dab5-ef46-4416-9695-07c4b03d77a8)
+![Image](https://github.com/user-attachments/assets/17ea0449-c66e-4642-8f0e-b3194ec725a1)
+![Image](https://github.com/user-attachments/assets/b1c685ff-4e7c-405c-95bd-9a158ab1feb7)
+![Image](https://github.com/user-attachments/assets/0c82056d-79e7-41e2-bdd5-2616c7ae2f0a)
+![Image](https://github.com/user-attachments/assets/d9fc7113-7dee-4dae-a3f6-17a4aa3cc07d)
+![Image](https://github.com/user-attachments/assets/e6cad42e-5299-4c9d-9b4c-5b6d0769e946)
+![Image](https://github.com/user-attachments/assets/fb574d5e-8dc7-4bde-b99c-fcb7f04241db)
 
 
 
