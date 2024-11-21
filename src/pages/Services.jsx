@@ -1,6 +1,7 @@
 import "./Services.css"
 import serviceImg from "../assets/services.webp"
 import { useEffect } from "react";
+import { Link } from "react-router-dom"; 
 
 function Services() {
   useEffect(() => {
@@ -47,6 +48,14 @@ function Services() {
           <p>Trustworthy and secure solutions for peace of mind.</p>
         </div>
       </div>
+      <div className="cta-section">
+        <h2>Ready to Get Started?</h2>
+        <p>Sign up today and begin your journey to better creditworthiness with our easy-to-use AI-powered platform!</p>
+        <Link to="/Login">
+        <button className="cta-btn">Start Now</button>
+        </Link>
+      </div>
+      
     </section>
   );
 }
