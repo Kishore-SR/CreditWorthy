@@ -1,13 +1,11 @@
 import { SignIn } from "@clerk/clerk-react";
-import "./Login.css";
+import styles from "./Login.module.css";
 
 function Login() {
   return (
-    <section className="clerk-center">
-      <div className="div-center">
-        <SignIn />
-      </div>
-    </section>
+    <div className={styles["c1-rootBox"]}>
+      <SignIn />
+    </div>
   );
 }
 

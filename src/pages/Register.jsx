@@ -1,8 +1,9 @@
 import { SignUp } from "@clerk/clerk-react";
+import styles from "./Login.module.css";
 
 function Login() {
   return (
-    <div>
+    <div className={styles["c1-rootBox"]}>
       <SignUp/>
     </div>
   );
