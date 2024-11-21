@@ -1,0 +1,114 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --footer-bg: #e6e6e6;
+    --text-color: #fe5d3d;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: var(--footer-bg);
+    color: var(--text-color);
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 30px auto;
+    width: 80%;
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin: 8px 0;
+    color: rgb(43, 40, 40);
+    cursor: pointer;
+    transition: color 0.1s;
+  }
+  
+  .footer-column ul li:hover {
+    color: rgb(101, 105, 109);
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 80%;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .footer-line {
+    width: 80%;
+    margin: auto;
+    height: 1px;
+    background-color: rgb(184, 184, 184);
+  }
+  
+  .my-name {
+    color: rgb(0, 139, 226);
+    background: linear-gradient(90deg, #52b9f5, #0075e2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform 0.3s ease;
+  }
+  
+  .my-name:hover {
+    transform: scale(1.08);
+  }
+  
+  /* Responsive Design for mobile */
+  @media (max-width: 768px) {
+    .footer-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      width: 88vw;
+    }
+  
+    .footer-column {
+      margin-bottom: 4px;
+    }
+  
+    .footer-column h4 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+  
+    .footer-column ul li {
+      font-size: 0.74rem;
+    }
+  
+    .footer-bottom {
+      width: 90vw;
+      font-size: 1rem;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+  
+    .footer-line {
+      width: 80vw;
+    }
+  }
+  

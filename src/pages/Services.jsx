@@ -1,8 +1,11 @@
 import "./Services.css"
 import serviceImg from "../assets/services.webp"
+import { Footer } from "../components/layout/Footer";
 
 function Services() {
   return (
+    <div>
+
     <section className="services-page">
       <div className="services-header">
         <h1>Our Services</h1>
@@ -44,6 +47,8 @@ function Services() {
         </div>
       </div>
     </section>
+      <Footer/>
+    </div>
   );
 }
 
