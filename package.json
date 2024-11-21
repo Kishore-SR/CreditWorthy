@@ -11,6 +11,7 @@
     "start": "node server/server.js"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.16.0",
     "axios": "^1.7.7",
     "cors": "^2.8.5",
     "exceljs": "^4.4.0",

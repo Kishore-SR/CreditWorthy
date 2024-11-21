@@ -1,9 +1,14 @@
-function Login() {
-    return (
-      <div>
-        <h1>Login Page</h1>
-      </div>
-    );
-  }
+import { SignIn } from "@clerk/clerk-react";
+import "./Login.css";
 
-  export default Login;
+function Login() {
+  return (
+    <section className="clerk-center">
+      <div className="div-center">
+        <SignIn />
+      </div>
+    </section>
+  );
+}
+
+export default Login;
