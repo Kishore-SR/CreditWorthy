@@ -2,7 +2,10 @@
 
 CreditWorthy is a web app designed to assess the creditworthiness of unbanked nano-entrepreneurs, such as local vegetable vendors, laundry service providers, and kirana store owners. 
 
-This project was created for the **AI & Data Science Codeathon 2024**, a 24-hour hackathon organized by RBIHub, IIITB Innovation Center, in collaboration with Candara Bank, held on **20-21 November 2023**.
+This project was created for the **AI & Data Science Codeathon 2024**, a 24-hour hackathon organized by RBIHub, IIITB Innovation Center, in collaboration with Canara Bank, held on **20-21 November 2023**.
+
+## Problem Statement
+> The problem statement, *"AI-Driven Credit Access for Unbanked Nano-Entrepreneurs,"* was provided by the RBIH team during the Codeathon 2024. Our project addresses this challenge by empowering nano-entrepreneurs with innovative AI solutions for financial inclusion.
 
 ### Features
 - **AI-Based Credit Scoring**: Uses AI to evaluate creditworthiness based on transaction patterns, business performance, and other alternative data.
@@ -81,4 +84,4 @@ This project was created for the **AI & Data Science Codeathon 2024**, a 24-hour
 &nbsp;
 [![Jeevan N](https://img.shields.io/badge/jeevan%20n-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeevan-n-39a5652a3)
 &nbsp;
-[![Rishi Majeti](https://img.shields.io/badge/hitesh%20p-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishi-majeti-01b6102b4/)
+[![Rishi Majeti](https://img.shields.io/badge/Rishi%20Majeti-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishi-majeti-01b6102b4/)
