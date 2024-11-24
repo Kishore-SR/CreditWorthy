@@ -25,17 +25,18 @@ This project was created for the **AI & Data Science Codeathon 2024**, a 24-hour
 ![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?style=for-the-badge&logoColor=white)
 [![Numpy](https://img.shields.io/badge/numpy-%23013243.svg?&style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 
-### Project Screenshots
-![Image](https://github.com/user-attachments/assets/f62d5f5d-2750-4b27-96fe-9a9704b02073)
-![Image](https://github.com/user-attachments/assets/d3b7dab5-ef46-4416-9695-07c4b03d77a8)
-![Image](https://github.com/user-attachments/assets/17ea0449-c66e-4642-8f0e-b3194ec725a1)
-![Image](https://github.com/user-attachments/assets/b1c685ff-4e7c-405c-95bd-9a158ab1feb7)
-![Image](https://github.com/user-attachments/assets/0c82056d-79e7-41e2-bdd5-2616c7ae2f0a)
-![Image](https://github.com/user-attachments/assets/d9fc7113-7dee-4dae-a3f6-17a4aa3cc07d)
-![Image](https://github.com/user-attachments/assets/e6cad42e-5299-4c9d-9b4c-5b6d0769e946)
-![Image](https://github.com/user-attachments/assets/fb574d5e-8dc7-4bde-b99c-fcb7f04241db)
-
-
+### Project Preview
+![Image](https://github.com/user-attachments/assets/691cff19-d6b0-4e65-90db-5a5202729ad4)
+![Image](https://github.com/user-attachments/assets/6b32ff37-909d-4ac9-8a50-eb16c39e6fc6)
+![Image](https://github.com/user-attachments/assets/ea66ca30-de51-4a94-899d-eb36800036f1)
+![Image](https://github.com/user-attachments/assets/3205fef7-2772-4cb5-9e3d-0b16c1cc37ca)
+![Image](https://github.com/user-attachments/assets/f5a89357-610b-4366-a7e1-47c635652234)
+![Image](https://github.com/user-attachments/assets/4ff73bb1-df76-4e42-8df3-de84d34283a4)
+![Image](https://github.com/user-attachments/assets/921743c4-1b1e-4c89-93c0-6688ed009559)
+![Image](https://github.com/user-attachments/assets/3038494e-5885-4874-9c65-9181b0bf63b1)
+![Image](https://github.com/user-attachments/assets/f575fd1a-306a-48a6-88c7-7e0a00f57743)
+![Image](https://github.com/user-attachments/assets/1f5b08c7-c4a6-44a7-a184-5a214c173768)
+![Image](https://github.com/user-attachments/assets/7cb5ea6e-9831-40b1-8544-c8f5b542d6c3)
 
 ### Run the Project Locally
 
