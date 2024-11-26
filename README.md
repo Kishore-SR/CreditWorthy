@@ -4,6 +4,9 @@ CreditWorthy is a web app designed to assess the creditworthiness of unbanked na
 
 This project was created for the **AI & Data Science Codeathon 2024**, a 24-hour hackathon organized by RBIHub, IIITB Innovation Center, in collaboration with Canara Bank, held on **20-21 November 2023**.
 
+[![Project Link](https://img.shields.io/badge/Project%20Link-37a779?style=for-the-badge)](https://creditworthy.vercel.app/)  &nbsp; 
+[![Hackathon VIDEO](https://img.shields.io/badge/hackathon%20VIDEO-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/vte1DKiFjAM?si=IpzgvN7MllpUI_BB)  
+
 ## Problem Statement
 > The problem statement, *"AI-Driven Credit Access for Unbanked Nano-Entrepreneurs,"* was provided by the RBIH team during the Codeathon 2024. Our project addresses this challenge by empowering nano-entrepreneurs with innovative AI solutions for financial inclusion.
 
